@@ -1,0 +1,61 @@
+pwd
+	Shows the present working directory
+
+
+ls
+	Shows the list of folder
+
+
+ls Filename
+	Shows the things inside a folder
+
+
+clear
+	Clean stuff.. Duh
+
+
+git clone --config="http.proxy=http://youngil2473:13888147114%40Cmis@192.168.2.1:8080" https://github.com/youngil2473-cmis/youngil2473-cmis-wd.git
+	Cloning
+
+
+cat
+	Reading stuff in a file
+
+
+(Tab)
+	Auto fill
+
+
+cd Foldername
+	Move to a new repository
+	~ home folder
+	/ subfolder
+
+
+gedit Filename
+	Opens the editing program or makes a new file if the name doesn’t exist
+
+
+gedit Filename &
+	Runs gedit and terminal together
+
+
+git add Filename (IN THE RIGHT REPOSITORY and SAVE EVERYTIME)
+	Keep track of the file
+
+
+git add .
+	Keep track of ALL edited files
+
+
+git commit -m “Short Description”
+	Adds a log to the work
+
+
+git push
+	Saves the work online
+
+
+gedit Filename &
+	Runs gedit and terminal together
+
