@@ -1,0 +1,31 @@
+Come to class and open the computer
+
+Login to the computer and open the terminal
+
+Clone the Repository by typing or copying this command: 
+git clone --config="http.proxy=http://youngil2473:PASSWORD@192.168.2.1:8080" https://github.com/youngil2473-cmis/youngil2473-cmis-wd.git
+
+Move to the Repository by typing out this command:
+cd youngil2473-cmis-wd
+
+If the Repository cannot be found, use the "ls" command to look for a new folder. That is the Repository
+
+When inside the Repository, use this command:
+gedit file.txt
+This will creat and open a text file
+
+When done editing the file, use this command:
+gitadd file.txt or gitadd .
+This will make the git keep track of the changes made to the file
+
+After doing more work than you want to lose, use this command:
+git commit -m "REPLACE WITH DESCRIPTION"
+This will create a milestone that can be reversed when something goes wrong
+
+When the end of class comes or when you want to be safe, use this command:
+git push
+This will upload the file.txt back to github
+
+Check with github to make sure the data is saved
+
+When the bell rings, jump up in joy and run

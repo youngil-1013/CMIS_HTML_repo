@@ -55,7 +55,3 @@ git commit -m “Short Description”
 git push
 	Saves the work online
 
-
-gedit Filename &
-	Runs gedit and terminal together
-
