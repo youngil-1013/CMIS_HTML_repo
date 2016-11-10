@@ -54,4 +54,37 @@ git commit -m “Short Description”
 
 git push
 	Saves the work online
+	
+python -m SimpleHTTPServer
+	Open a development server, IN THE REPOSITORY!
+
+
+(localhost:8000)
+	Shows the server
+
+
+(ctrl+c)
+	Close the server
+
+
+html
+<!-- abc -->
+	Adds a comment, does not show on the website
+
+
+sftp username@cmis-hsteacher
+	Logs into the production server
+
+
+!ls
+	Lists out the LOCAL folder(in the repository folder)
+
+
+put <Filename>
+	Moves the file into the production server(Start in wanted repository and in the folder you want to move)
+
+
+http://cmis-hsteacher/~youngil2473/quiz.html
+	Production view
+
 
