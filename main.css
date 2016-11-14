@@ -1,0 +1,14 @@
+html {
+	font-family:Comic Sans MS;
+	background-color:#777;
+	border: 9px solid black;
+}
+
+h1 {
+	color:green;
+	border-bottom: thick dotted black;
+	background-color: white;
+}
+
+h2 {
+	
