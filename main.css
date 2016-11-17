@@ -1,9 +1,9 @@
 html {
-	font-family:Comic Sans MS;
-	background-color:#777;
-	border: 9px solid black;
-	font-size: 90%;
-	cursor: not-allowed;
+	/*1*/font-family:Comic Sans MS;
+	/*2*/background-color:#777;
+	/*3*/border: 9px solid black;
+	/*4*/font-size: 90%;
+	/*5*/cursor: not-allowed;
 }
 
 body {
@@ -12,39 +12,47 @@ body {
 }
 
 h1 {
-	color:red;
-	border-bottom: thick dotted black;
+	/*6*/color:red;
+	/*7*/border-bottom: thick dotted black;
 	background-color: white;
-	text-align: center;
+	/*8*/text-align: center;
 }
 
 h2 {	
 	background-color: #777;
 	color: white;
-	outline: solid thin #0f0;
+	/*9*/outline: solid thin #0f0;
 	border-top: 4px dotted black;
+	/*10*/margin-right: 15cm;
 }
 
 h3 {
 	background-color: salmon;
-	margin-left: 80px;
+	margin-left: 120px;
 	margin-right: 100px;
 	margin-top: 50px;
-	margin: bottom: 40px
+	margin-bottom: 40px
 	font-family: arial;
-	text-shadow: 2px 2px #999;
+	outline: gray 10px;
+	/*19*/outline-style: inset;
+	/*11*/text-shadow: 2px 2px #999;
 }
 
 h4 {
+	margin-right: 5cm;
 	background-color: #777;
-	direction: rtl;
+	font-size: 150%;
 	outline: dotted thin #408;
+	border: 50px;
+	-webkit-border-image: url(http://i0.kym-cdn.com/entries/icons/facebook/000/013/564/aP2dv.jpg);
+	/*12*/padding: 40px;
 }
 	
 h5 {
+	/*13*/letter-spacing: 5px;
 	background-color: #39ff14;
 	border: 40px solid black;
-	border-left-color: #777777;
+	/*14*/border-left-color: #777777;
 	border-right-color: #777;
 	text-align: center;
 }
@@ -54,6 +62,25 @@ h6 {
 	font-family: helvetica;
 	font-size: 40px;
 	border: 5px dotted yellow;
-	padding: 10px;
-	text-align: center
+	padding: 40px;
+	text-align: center;
+	/*15*/background-image: #777 url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Choco_chip_cookie.jpg") repeat fixed center;
+	/*16*/background-size: 45px 50px;
+}
+
+p {
+	outline: #00ff00 dotted thin;
+	font-size: 150%;
+	/*17*/text-indent: 50px;
+}
+
+i {
+	font-size: 90%;
+	text-shadow: 2px 4px #777
+}
+footer {
+	color: white;
+	border: 20pt solid salmon;
+	/*18*/word-spacing: -3px;
+	font-family: fantasy;
 }
