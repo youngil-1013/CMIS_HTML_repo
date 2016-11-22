@@ -76,7 +76,8 @@ p {
 
 i {
 	font-size: 90%;
-	text-shadow: 2px 4px #777
+	text-shadow: 2px 4px #777;
+	/*20*/text-decoration: underline;
 }
 footer {
 	color: white;
