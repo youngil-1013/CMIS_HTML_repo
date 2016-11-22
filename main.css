@@ -1,7 +1,30 @@
+/*Properties:font-family, background-color, border, font-size, cursor, color, border-btlr, text-align, outline, margin-btlr, outline-style, text-shadow, padding, letter-spacing, border-btlr-color, background-image, background-size, text-indent, text-decoration, word-spacing, */
+
+/*What I learned from others: There is something called a "div" thingy that you have to add to the html to do stuff in the css. If you upload a gif file to the border, it will play the gif and make a lot of chaos(which I will definetly enjoy)*/
+
+/*Create a new file called "main.css"
+*Add a link element to the head of your index.html file
+*<link rel="stylesheet" href="main.css" type="text/css">
+*Edit the main.css file
+*add a declaration for each element in the body of your index.html file.
+*add properties to style the background color of each element.
+*add properties to style the border of each element.
+*add properties to style the font and text of each element.
+*Use at least 20 different properties. Include a list of these 20 at the TOP of your main.css file as a css comment.
+*Use at least 4 different units to set sizes of various aspects of your webpage.
+*Go learn something from 2 classmates; add a comment to your main.css file that describes what you learned.
+*View your index.html in the development server.
+*Validate your index.html file.
+*Validate your main.css file.
+*Copy this list of requirements and paste it into the top of your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
+*Upload to the production server with sftp.
+*View your index.html in the production server.*/
+
 html {
-	/*1*/font-family:Comic Sans MS;
+	/*1*/font-family:"Comic Sans MS";
 	/*2*/background-color:#777;
-	/*3*/border: 9px solid black;
+	/*3*/border: 9
+cm solid black;
 	/*4*/font-size: 90%;
 	/*5*/cursor: not-allowed;
 }
@@ -31,7 +54,7 @@ h3 {
 	margin-left: 120px;
 	margin-right: 100px;
 	margin-top: 50px;
-	margin-bottom: 40px
+	margin-bottom: 40px;
 	font-family: arial;
 	outline: gray 10px;
 	/*19*/outline-style: inset;
@@ -60,11 +83,11 @@ h5 {
 h6 {
 	background-color: #777;
 	font-family: helvetica;
-	font-size: 40px;
+	font-size: 1in;
 	border: 5px dotted yellow;
 	padding: 40px;
 	text-align: center;
-	/*15*/background-image: #777 url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Choco_chip_cookie.jpg") repeat fixed center;
+	/*15*/background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Choco_chip_cookie.jpg");
 	/*16*/background-size: 45px 50px;
 }
 
