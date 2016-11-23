@@ -1,0 +1,46 @@
+html {
+font-family: arial;
+}
+
+h1 {
+color: yellow;
+background-color: green;
+font-style: bold;
+border-bottom: 5px dashed yellow ;
+border-left: 0;
+margin-bottom: 0px;
+}
+
+h2 {
+color: blue;
+background-color: red;
+border-bottom: 7px dashed yellow;
+margin-top: 0px;
+padding: 10px;
+
+}
+
+h3 {
+color: yellow;
+background-color: purple;
+}
+main {
+border-left: 5px solid red;
+left: orange
+
+}
+
+h4 {
+color: purple;
+background-color: yellow;
+border-top: 5px dashed purple;
+}
+
+p {
+color: blue;
+}
+
+footer {
+border-left: 6px solid red;
+border-top: 1px dashed black;
+}
