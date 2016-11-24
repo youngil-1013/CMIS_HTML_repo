@@ -12,9 +12,9 @@ h1 {
 font-size: 300%;
 color: red;
 background-color: #40e0d0;
-text-decoration: underline;
-margin-bottom: 0px;
-border-bottom: solid black;
+margin-bottom: 5px;
+margin-right: 1250px;
+border-bottom: 9px solid black;
 padding-bottom: 0px;
 }
 
@@ -26,6 +26,7 @@ font-size:15px;
 background-color: #40e0d0;
 margin: 0px;
 padding-top: 20px;
+border-top: 9px solid black;
 }
 
 main {
