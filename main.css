@@ -23,8 +23,7 @@
 html {
 	/*1*/font-family:"Comic Sans MS";
 	/*2*/background-color:#777;
-	/*3*/border: 9
-cm solid black;
+	/*3*/border: 1cm solid black;
 	/*4*/font-size: 90%;
 	/*5*/cursor: not-allowed;
 }
@@ -66,9 +65,9 @@ h4 {
 	background-color: #777;
 	font-size: 150%;
 	outline: dotted thin #408;
-	border: 50px;
+	border: 20px;
 	-webkit-border-image: url(http://i0.kym-cdn.com/entries/icons/facebook/000/013/564/aP2dv.jpg);
-	/*12*/padding: 40px;
+	/*12*/padding: 4px;
 }
 	
 h5 {
@@ -81,11 +80,13 @@ h5 {
 }
 
 h6 {
+	margin-top: 5px;
+	margin-bottom: 0px;
 	background-color: #777;
 	font-family: helvetica;
 	font-size: 1in;
 	border: 5px dotted yellow;
-	padding: 40px;
+	padding: 4px;
 	text-align: center;
 	/*15*/background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Choco_chip_cookie.jpg");
 	/*16*/background-size: 45px 50px;
