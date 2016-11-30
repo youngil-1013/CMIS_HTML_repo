@@ -92,6 +92,15 @@ h6 {
 	/*16*/background-size: 45px 50px;
 }
 
+main ul{	
+	outline: red solid thick;
+	padding: 5px;
+	padding-left: 50px;
+	border: black dotted thin;
+	margin: 10px;
+	width: 850px;
+	font-family: serif;
+}
 p {
 	outline: #00ff00 dotted thin;
 	font-size: 150%;

@@ -1,0 +1,22 @@
+html {
+	background-color: #7C6ED7;
+	font-family: helvetica;
+}
+
+main, header {
+	background-color: lightblue;
+}
+
+header {
+
+}
+h1, h2{
+	margin: 0px;
+	border-left: 10px solid #119FCF;
+	border-bottom: 1px solid white;
+}
+
+ol{
+	border-left: 10px solid #3D5082; 
+	padding-top: 10px;
+}
