@@ -1,0 +1,64 @@
+html {
+background-color: red;
+padding-left: 200px;
+padding-right: 200px;
+}
+
+a:link {
+color: yellow;
+}
+
+a:visited {
+color: yellow;
+}
+
+header {
+background-color: blue;
+}
+
+h1 {
+color: yellow;
+font-family: Impact, Charcoal, sans-serif;
+border-left: 40px solid yellow;
+}
+
+header p {
+color: white;
+font-family: sans-serif;
+}
+
+nav li {
+text-decoration: underline;
+text-decoration: line-through;
+color: yellow;
+}
+
+main {
+background-color: white;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+main p {
+text-decoration: underline;
+}
+
+h2 {
+border-right: 70px solid green;
+font-family: Verdana, sans-serif;
+}
+
+ol li {
+outline: 2px dotted black;
+}
+
+main ul li {
+font-size: small;
+text-decoration: line-through;
+}
+
+footer {
+background-color: blue;
+color: white;
+font-family: sans-serif;
+}
