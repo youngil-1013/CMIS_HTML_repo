@@ -6,17 +6,33 @@ html {
 main, header {
 	background-color: lightblue;
 }
+nav a:link {
+	color: white;
+}
 
+nav a:visited {
+	color: white;
+}
+
+main a:visited {
+	color: blue;
+}
 header {
 
 }
-h1, h2{
+h1 {
+	margin: 0px;
+	border-left: 10px solid #119FCF;
+	border-bottom: 1px solid white;
+}
+h2 { 
+	font-family: sans-serif;
 	margin: 0px;
 	border-left: 10px solid #119FCF;
 	border-bottom: 1px solid white;
 }
 
-ol{
+ol {
 	border-left: 10px solid #3D5082; 
 	padding-top: 10px;
 }
