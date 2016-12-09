@@ -1,14 +1,38 @@
 html {
 background-color:#634909;
 font-family:"Comic Sans MS", cursive, sans-serif;
-margin-left: 50px;
-margin-right: 50px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+nav a:link, a:visited {
+padding: 2px;
+border: 3px #FFF1D0 solid;
+color: black;
+}
+
+nav a:link{
+border: 3px #FFF1D0 solid;
+padding: 2px;
+background-color: #F1D38A;
+color: black;
+}
+
+nav {
+padding-top: 15px;
+text-align: center;
+}
+
+main {
+margin-bottom: 7px;
+border-bottom: 20px solid #FFF1D0;
 }
 
 header, main {
 background-color:#F1D38A;
 border-left: #FFF1D0 20px solid;
 border-right: #FFF1D0 20px solid;
+box-shadow: 0px 0px 10px yellow;
 }
 
 header {
@@ -30,8 +54,28 @@ font-size: 22px;
 border-bottom: 5px #FFF1D0 solid;
 }
 
+img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
 main h3{
 padding-left: 10px;
+}
+
+h3 {
+text-align: center;
+}
+
+h4 {
+text-align: center;
+text-decoration: underline;
+}
+
+article h3 {
+font-size: 240%;
+background-color: #FFF1D0;
 }
 
 main p {
@@ -43,6 +87,18 @@ main img {
 padding-left: 20px;
 }
 
-main a:link {
-padding-left: 20px;
+article a:link {
+text-align: center;
+display: block;
+margin: 0 auto;
+}
+
+article p {
+font-weight: bold;
+}
+
+footer {
+background-color: #FFF1D0;
+box-shadow: 0px 0px 10px yellow;
+border: 3px #FFF1D0 solid;
 }
