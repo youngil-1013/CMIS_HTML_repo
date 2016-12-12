@@ -1,8 +1,8 @@
 html {
 background-color:#634909;
 font-family:"Comic Sans MS", cursive, sans-serif;
-margin-left: 100px;
-margin-right: 100px;
+margin-left: 150px;
+margin-right: 150px;
 }
 
 nav a:link, a:visited {
@@ -23,9 +23,18 @@ padding-top: 15px;
 text-align: center;
 }
 
+nav ul {
+list-style-type: none;
+line-height: 50px;
+}
+
 main {
 margin-bottom: 7px;
 border-bottom: 20px solid #FFF1D0;
+}
+
+main h3 {
+text-decoration: 
 }
 
 header, main {
@@ -79,8 +88,7 @@ background-color: #FFF1D0;
 }
 
 main p {
-padding-left: 20px;
-border-left: 8px #FFF1D0 solid;
+text-align: center;
 }
 
 main img {
